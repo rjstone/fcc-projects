@@ -3,27 +3,39 @@
 #main-container {
 	background-color: #e3a92f;
 	max-width: 1024px;
-	margin: 3rem auto 3rem auto;
 	border-radius: 0.5rem;
 }
 
+@media (min-width: 1096px) {
+	#main-container {
+		margin: 3rem auto 3rem auto;
+	}
+}
+
 .jumbotron {
-	text-align: center;
 	background-color: transparent;
-	margin-bottom: 0;
 	height: auto;
+	margin: 3rem 0 0 0;
+	padding: 0;
+}
+
+.row {
+	margin-bottom: 0;
+}
+
+.well {
+	background: rgba(255, 255, 255, 0.33);
+}
+
+#photo-well {
+	padding: 0;
 }
 
 #main-photo {
 	width: 100%;
 	border: 10px solid #222222;
-	border-radius: 0.5rem;
 }
 
-.row {
-	margin-bottom: 2rem;
-}
-
-#main-container .well-lg {
-	background: rgba(255, 255, 255, 0.33);
+#footer {
+	margin: 1rem 0 1rem 0;
 }
