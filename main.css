@@ -1,0 +1,30 @@
+body {
+	background: #333;
+	color: #999
+}
+
+#top {
+	color: #ffffff;
+	background: #006400;
+}
+
+#top a {
+	color: #bbbbff;
+}
+
+.btn-default {
+	background: #777;
+	color: #bbb;
+}
+
+footer {
+	margin-top: 5rem;;
+}
+
+footer hr {
+	border-color: #555;
+}
+
+#cc-logo {
+	margin-right: 2rem;
+}
