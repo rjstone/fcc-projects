@@ -9,16 +9,19 @@
 }
 
 #content {
-	margin-top: 0;
+	margin-top: 5rem;
 	padding: 0 5rem;
 }
 
 
 @media(max-width: 767px) {
 	#navigation {
+		position: fixed;
+		width: 100%;
 		text-align: center;
 		padding: 0.5rem 2rem 0.5rem 2rem;
 		margin-bottom: 0;
+		z-index: 10;
 	}
 
 	#navigation .navitem {
@@ -29,6 +32,7 @@
 	}
 
 	#content {
+		margin-top: 10rem;
 		padding: 0 2rem;
 	}
 }
@@ -38,22 +42,42 @@
 		position: fixed;
 		height: 100%;
 	}
+
+	.align-middle-container {
+		position: relative;
+		height: 320px;
+	}
+
+	.align-middle-block {
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		transform: translate(0, -50%);
+	}
+	.align-center-block {
+		margin: 0;
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+	.align-center-middle-block {
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
 }
 
-#heading {
+#navheader {
+	margin-top: 10rem;
 }
 
-#heading>div {
+#header {
+	height: 320px;
 }
 
 #main-portrait {
-	margin: 3rem auto 2rem auto;
 	border: 1rem solid black;
-}
-
-.align-middle-block {
-	vertical-align: middle;
-	margin-top: auto;
-	margin-bottom: auto;
-	height: 100px;
+	margin: 2rem auto 2rem auto;
 }
