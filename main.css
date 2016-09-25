@@ -1,24 +1,42 @@
 body {
 	background: #333;
-	color: #999
+	color: #999;
 }
 
 #top {
 	color: #ffffff;
 	background: #006400;
+	margin: 0 0 2rem 0;
+	padding: 0;
 }
 
 #top a {
 	color: #bbbbff;
 }
 
+@media (min-width: 750px) and (min-height: 600px) {
+	#top {
+		padding: 5rem 0;
+	}
+}
+
+#main {
+}
+
+#main .row>div {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+
 .btn-default {
 	background: #777;
-	color: #bbb;
+	color: #fff;
+	text-shadow: none;
 }
 
 footer {
-	margin-top: 5rem;;
+	margin-top: 0;
+	padding-top: 0;
 }
 
 footer hr {
