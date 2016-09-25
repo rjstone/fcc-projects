@@ -4,6 +4,22 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+a, a:hover, a:visited, a:active {
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	background-color: #444;
+}
+
+a:visited {
+	color: #ddd;
+}
+
 #top {
 	color: #ddd;
 	background: #006400;
@@ -47,4 +63,5 @@ footer hr {
 
 #cc-logo {
 	margin-right: 2rem;
+	vertical-align: baseline;;
 }
