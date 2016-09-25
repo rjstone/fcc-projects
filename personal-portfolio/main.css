@@ -1,20 +1,32 @@
 body {
 	font-size: 14pt;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #navigation {
 	background: #007381;
 	color: #FFFFFF;
-	padding: 2rem;
+}
+
+#navigation div {
+	margin: 0;
+	padding: 0;
 }
 
 #navigation .navitem {
-	margin: 0.5rem;
 }
 
 #navigation a {
 	color: #ffffff;
 	font-weight: bold;
+}
+
+div#navheader {
+	margin-top: 6rem;
+}
+
+div#navheader p {
+	margin-bottom: 4rem;
 }
 
 #heading {
@@ -25,12 +37,22 @@ body {
 	font-size: 200%;
 }
 
+#main-portrait {
+	margin: 2rem auto;
+	border: 1rem solid black;
+}
+
+.bg-gray {
+	background: #bbbbbb;
+}
+
+
 @media(max-width: 767px) {
 	#navigation {
 		position: fixed;
 		width: 100%;
 		text-align: center;
-		padding: 0.5rem 2rem 0.5rem 2rem;
+		padding: 0.5rem;
 		margin-bottom: 0;
 		z-index: 10;
 	}
@@ -45,11 +67,18 @@ body {
 	#heading {
 		padding-top: 6rem;
 		padding-bottom: 3rem;
+		margin-bottom: 3rem;
 	}
 
 	#heading>div {
 		padding: 0 inherit;
+		text-align: center;
 	}
+
+	#main>div {
+		margin-bottom: 1rem;
+	}
+
 }
 
 
@@ -57,14 +86,19 @@ body {
 	#navigation {
 		position: fixed;
 		height: 100%;
+		padding: 0;
+	}
+
+	#navigation .row {
+		padding: 0 2rem;
 	}
 
 	#navigation a {
 		font-size: 150%;
 	}
 
-	#main {
-		margin-top: 5rem;
+	#heading {
+		margin-bottom: 5rem;
 	}
 
 	#content>div {
@@ -92,21 +126,8 @@ body {
 		margin-left: auto;
 		margin-right: auto;
 	}
-}
 
-#navheader {
-	margin-top: 10rem;
-}
-
-#header {
-	height: 400px;
-}
-
-#main-portrait {
-	margin: 2rem auto;
-	border: 1rem solid black;
-}
-
-.bg-gray {
-	background: #bbbbbb;
+	#main>div {
+		margin-bottom: 3rem;
+	}
 }
