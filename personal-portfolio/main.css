@@ -1,0 +1,59 @@
+#navigation {
+	background: #007381;
+	color: #FFFFFF;
+	padding: 2rem;
+}
+
+#navigation .navitem {
+	margin: 0.5rem;
+}
+
+#content {
+	margin-top: 0;
+	padding: 0 5rem;
+}
+
+
+@media(max-width: 767px) {
+	#navigation {
+		text-align: center;
+		padding: 0.5rem 2rem 0.5rem 2rem;
+		margin-bottom: 0;
+	}
+
+	#navigation .navitem {
+		display: inline-block;
+		white-space: nowrap;
+		padding: 0;
+		margin: 0 0.5rem 0 0.5rem;
+	}
+
+	#content {
+		padding: 0 2rem;
+	}
+}
+
+@media(min-width: 768px) {
+	#navigation {
+		position: fixed;
+		height: 100%;
+	}
+}
+
+#heading {
+}
+
+#heading>div {
+}
+
+#main-portrait {
+	margin: 3rem auto 2rem auto;
+	border: 1rem solid black;
+}
+
+.align-middle-block {
+	vertical-align: middle;
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 100px;
+}
