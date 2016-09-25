@@ -4,14 +4,15 @@ body {
 }
 
 #top {
-	color: #ffffff;
+	color: #ddd;
 	background: #006400;
 	margin: 0 0 2rem 0;
 	padding: 0;
 }
 
 #top a {
-	color: #bbbbff;
+	color: #fff;
+	font-weight: bold;
 }
 
 @media (min-width: 750px) and (min-height: 600px) {
